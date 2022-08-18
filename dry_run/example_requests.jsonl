@@ -1,2 +1,2 @@
-{"engine": "opt-175b", "prompt": "Hello"}
-{"engine": "bloom", "prompt": "Bye"}
+{"engine": "opt-175b", "prompt": "Hello, my name is", "n": 3, "temperature": 0.5}
+{"engine": "bloom", "prompt": "The capital of France is"}
