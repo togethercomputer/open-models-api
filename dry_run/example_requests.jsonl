@@ -1,2 +1,4 @@
-{"engine": "opt-175b", "prompt": "Hello, my name is", "n": 3, "temperature": 0.5}
-{"engine": "bloom", "prompt": "The capital of France is"}
+{"request_type": "language-model-inference", "model": "opt-175b", "prompt": "Hello, my name is", "n": 3, "temperature": 0.5}
+{"request_type": "language-model-inference", "model": "bloom", "prompt": "The capital of France is"}
+{"request_type": "language-model-training", "model": "gpt-j-6b", "prompt": "The capital of France is", "completion": "Paris"}
+{"request_type": "image-model-inference", "model": "stable-diffusion", "prompt": "a circle"}
