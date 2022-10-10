@@ -79,6 +79,9 @@ class LanguageModelInferenceRequest:
     # Include the input as part of the output (e.g., for language modeling)
     echo: Optional[bool]
 
+    # Return the embedding of the last layer for the prompt seqs
+    prompt_embedding: Optional[bool]
+
     # Produce This many candidates per token
     best_of: Optional[int]
 
